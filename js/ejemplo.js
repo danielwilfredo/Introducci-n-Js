@@ -43,6 +43,7 @@ function sumar()
 
 }
 */
+/*
 let a=parseFloat(prompt("Ingrese un numero: "));
     let b=parseFloat(prompt("Ingrese un numero: "));
 
@@ -55,3 +56,4 @@ function sumar(a=10,b=1)
 }
 
 alert(sumar(b));
+*/

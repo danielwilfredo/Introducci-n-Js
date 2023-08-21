@@ -1,21 +1,31 @@
 //ciclo while
-
-/*let detener="";
+/*
+let detener="";
 while(detener != "stop")
 {
-    detener=prompt(`Deseas seguir ejecutando el ciclo:
-    SI o stop para detener`);
-}*/
+detener=prompt(`Deseas seguir ejecutando el ciclo:
+SI o stop para detener`);}*/
+
+
 
 //ciclo Do while
-/*let num =5;
+/*
+let num =5;
 do{
     alert(num);
     num=parseInt(prompt("Ingrese un numero"));
 }
-while(num!=0)*/
+while(num!=0)
+*/
 
 //Arreglos
+/*
+let nombres=["Fernando","Luis","Gabriel","Karla"];
+
+for (let i = 0; i < nombres.length; i++) 
+{
+console.log(`Posición ${i} = ${nombres[i]}`);
+}*/
 /*
 let notas = [];
 let suma=0;
@@ -25,24 +35,26 @@ for(let i = 0; i<4;i++)
     notas.push(nota);
     suma +=notas[i];
 }
-
 console.log(suma);
 console.log(notas);
-
 */
+
 
 //funciones
-/*
-function sumar()
-{
-    let a=parseFloat(prompt("Ingrese un numero: "));
-    let b=parseFloat(prompt("Ingrese un numero: "));
-    let suma=(a+b);
+let a=parseFloat(prompt("Ingrese un numero: "));
+let b=parseFloat(prompt("Ingrese un numero: "));
 
-    return suma;
+function sumar(a,b=99)
+{
+    
+    let suma=(a+b);
+    alert(suma);
 
 }
-*/
+
+sumar(a);
+
+
 /*
 let a=parseFloat(prompt("Ingrese un numero: "));
     let b=parseFloat(prompt("Ingrese un numero: "));

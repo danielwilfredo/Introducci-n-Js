@@ -24,9 +24,10 @@ do{
 }
 while(num!=0)
 */
+
 //Arreglos
 /*
-let nombres=["Kevin","Daniel","Steven","Claudia"];
+let nombres=["Agreda","Samuel","Gabriela","Fernando"];
 for (let i = 0; i < nombres.length; i++) 
 {
 console.log(`Posición ${i} = ${nombres[i]}`);
@@ -53,15 +54,15 @@ console.log(notas);
 let a=parseFloat(prompt("Ingrese un numero: "));
 let b=parseFloat(prompt("Ingrese un numero: "));
 
-function sumar(a,b)
+function sumar(a=5,b=1)
 {
     let suma=(a+b);
     return suma;
 }
 
-console.log(sumar(a,b));
+console.log(sumar(a));
 */
-
+/*
 let a=parseFloat(prompt("Ingrese un numero: "));
 let b=parseFloat(prompt("Ingrese un numero: "));
 
@@ -73,7 +74,7 @@ function sumar(a=10,b=1)
 }
 
 alert(sumar(a,b));
-
+*/
 /*
 let numeros=[1,2,3];
 let suma=7;
@@ -88,3 +89,6 @@ for (let i = 1; i < 11; i++) {
 
 console.log(suma)
 */
+
+
+
